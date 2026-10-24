@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <title>加密量化实时看板</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <h1>加密量化实时看板</h1>
+        <div class="sub">Paper 双轨（Equal / Hybrid）+ Accel 影子 · 数据只读本地导出</div>
+      </div>
+      <div class="badges">
+        <span class="badge" id="badge-gen">生成时间：—</span>
+        <span class="badge" id="badge-src">源更新：—</span>
+        <span class="badge" id="badge-fresh">状态：加载中</span>
+      </div>
+    </header>
+
+    <section class="kpi-grid" id="kpi-grid">
+      <div class="card kpi" id="kpi-equal">
+        <div class="label">EqualReb_4h</div>
+        <div class="value" data-eq>—</div>
+        <div class="meta">
+          <span data-pnl>—</span>
+          <span data-day>—</span>
+          <span data-risk>—</span>
+        </div>
+      </div>
+      <div class="card kpi" id="kpi-hybrid">
+        <div class="label">Hybrid_90/10</div>
+        <div class="value" data-eq>—</div>
+        <div class="meta">
+          <span data-pnl>—</span>
+          <span data-day>—</span>
+          <span data-risk>—</span>
+        </div>
+      </div>
+      <div class="card kpi" id="kpi-accel">
+        <div class="label">Accel 影子</div>
+        <div class="value" data-eq>—</div>
+        <div class="meta">
+          <span data-pnl>—</span>
+          <span data-day>—</span>
+          <span data-risk>—</span>
+        </div>
+      </div>
+      <div class="card kpi" id="kpi-risk">
+        <div class="label">风控总览</div>
+        <div class="value" style="font-size:1.15rem" data-summary>—</div>
+        <div class="meta" data-detail></div>
+      </div>
+    </section>
+
+    <section class="section charts">
+      <div class="card">
+        <div class="section-title">
+          <h3 style="margin:0">Paper 净值曲线（Equal vs Hybrid）</h3>
+        </div>
+        <div class="chart-wrap"><canvas id="chart-paper"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="section-title">
+          <h3 style="margin:0">Accel 影子净值</h3>
+        </div>
+        <div class="chart-wrap"><canvas id="chart-accel"></canvas></div>
+      </div>
+    </section>
+
+    <section class="section card">
+      <div class="section-title"><h3 style="margin:0">持仓</h3></div>
+      <div class="tabs" id="pos-tabs">
+        <button class="tab active" data-track="equal">Equal</button>
+        <button class="tab" data-track="hybrid">Hybrid</button>
+        <button class="tab" data-track="accel">Accel</button>
+      </div>
+      <div class="table-scroll">
+        <table id="pos-table">
+          <thead>
+            <tr>
+              <th>标的</th>
+              <th>数量</th>
+              <th>成本/入场</th>
+              <th>名义(成本)</th>
+              <th>权重%</th>
+              <th>盈亏%</th>
+              <th>备注</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section card">
+      <div class="section-title"><h3 style="margin:0">成交 / 信号时间线</h3></div>
+      <div class="table-scroll">
+        <table id="evt-table">
+          <thead>
+            <tr>
+              <th>时间(UTC)</th>
+              <th>来源</th>
+              <th>标的</th>
+              <th>方向</th>
+              <th>价格</th>
+              <th>名义</th>
+              <th>原因</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section reports">
+      <div class="card">
+        <h3>Paper 最新快报</h3>
+        <pre class="report" id="report-paper">加载中…</pre>
+      </div>
+      <div class="card">
+        <h3>Accel 最新快报</h3>
+        <pre class="report" id="report-accel">加载中…</pre>
+      </div>
+    </section>
+
+    <footer>
+      自动每 60 秒刷新 · 数据文件 <code>data.json</code> · 账面时区 UTC ·
+      展示时同时标注 Asia/Shanghai 与 America/Los_Angeles
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1027 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-24T13:57:59Z",
+  "last_source_update_utc": "2026-10-24T13:54:34Z",
+  "meta": {
+    "pool_name": "strong8",
+    "symbols_paper": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "SOLUSDT",
+      "BNBUSDT",
+      "AVAXUSDT",
+      "LINKUSDT",
+      "DOTUSDT",
+      "NEARUSDT"
+    ],
+    "accel_strategy": "AC_s2.0_l16.0_h24.0_v1.5_s0.06_K2",
+    "accel_mode": "signal_only",
+    "initial_paper_usdt": 1000.0,
+    "initial_accel_usdt": 100.0,
+    "timezone_books": "UTC"
+  },
+  "kpi": {
+    "equal": {
+      "name": "EqualReb_4h",
+      "equity": 985.8272,
+      "pnl_pct": -1.4173,
+      "day_pnl_pct": -1.4173,
+      "cash": 1.498751872191832,
+      "realized_pnl": 0.0,
+      "peak_equity": 1000.8093389666064,
+      "risk": "正常",
+      "updated_utc": "2026-10-24T13:54:34Z"
+    },
+    "hybrid": {
+      "name": "Hybrid_90/10",
+      "equity": 987.2125,
+      "pnl_pct": -1.2787,
+      "day_pnl_pct": -1.2787,
+      "cash": 99.10000000000015,
+      "realized_pnl": 0.0,
+      "peak_equity": 1000.730227905456,
+      "risk": "正常",
+      "updated_utc": "2026-10-24T13:54:34Z",
+      "satellite_active": []
+    },
+    "accel": {
+      "name": "Accel影子",
+      "equity": 97.2821,
+      "pnl_pct": -2.7179,
+      "day_pnl_pct": -2.7179,
+      "cash": 49.95,
+      "realized_pnl": 0.0,
+      "peak_equity": 100.0,
+      "risk": "正常",
+      "updated_utc": "2026-10-24T13:03:44Z",
+      "n_positions": 1,
+      "signal_count": 1
+    }
+  },
+  "equity": {
+    "equal": [
+      {
+        "t": "2026-10-24T06:46:54Z",
+        "equity": 998.504,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -0.4985026208812293
+      },
+      {
+        "t": "2026-10-24T06:47:10Z",
+        "equity": 998.5488,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -0.4537221120714264
+      },
+      {
+        "t": "2026-10-24T06:47:18Z",
+        "equity": 998.5455,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -0.4569779010681992
+      },
+      {
+        "t": "2026-10-24T07:04:19Z",
+        "equity": 1000.8093,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": 1.8068427109897476
+      },
+      {
+        "t": "2026-10-24T07:24:59Z",
+        "equity": 996.4112,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -2.5912581969799646
+      },
+      {
+        "t": "2026-10-24T07:36:40Z",
+        "equity": 996.7158,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -2.28673338847782
+      },
+      {
+        "t": "2026-10-24T07:51:46Z",
+        "equity": 994.0494,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -4.953125123594105
+      },
+      {
+        "t": "2026-10-24T08:05:39Z",
+        "equity": 991.5628,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -7.439659553561313
+      },
+      {
+        "t": "2026-10-24T08:22:00Z",
+        "equity": 991.2369,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -7.765604059355638
+      },
+      {
+        "t": "2026-10-24T08:30:31Z",
+        "equity": 991.5812,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -7.421254888824631
+      },
+      {
+        "t": "2026-10-24T08:55:03Z",
+        "equity": 988.6124,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -10.390056092122412
+      },
+      {
+        "t": "2026-10-24T09:04:38Z",
+        "equity": 986.1196,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -12.882937602003413
+      },
+      {
+        "t": "2026-10-24T09:23:31Z",
+        "equity": 984.3434,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -14.659098689650865
+      },
+      {
+        "t": "2026-10-24T09:36:05Z",
+        "equity": 982.1381,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -16.864416151016158
+      },
+      {
+        "t": "2026-10-24T09:52:39Z",
+        "equity": 982.8724,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -16.13013614982572
+      },
+      {
+        "t": "2026-10-24T10:07:16Z",
+        "equity": 983.4816,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -15.520920390797912
+      },
+      {
+        "t": "2026-10-24T10:15:12Z",
+        "equity": 984.4121,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -14.590351137858683
+      },
+      {
+        "t": "2026-10-24T10:37:21Z",
+        "equity": 988.651,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -10.351502147505354
+      },
+      {
+        "t": "2026-10-24T10:48:11Z",
+        "equity": 988.0831,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -10.919445343974752
+      },
+      {
+        "t": "2026-10-24T11:06:44Z",
+        "equity": 988.8732,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -10.12925261242914
+      },
+      {
+        "t": "2026-10-24T11:20:55Z",
+        "equity": 988.1063,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -10.896174959975369
+      },
+      {
+        "t": "2026-10-24T11:39:47Z",
+        "equity": 986.6377,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -12.364791439610986
+      },
+      {
+        "t": "2026-10-24T11:48:26Z",
+        "equity": 986.3673,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -12.635186500023366
+      },
+      {
+        "t": "2026-10-24T12:05:04Z",
+        "equity": 986.4091,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -12.593366159196059
+      },
+      {
+        "t": "2026-10-24T12:19:58Z",
+        "equity": 988.1131,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -10.889353645685667
+      },
+      {
+        "t": "2026-10-24T12:35:37Z",
+        "equity": 989.0166,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.985919332096877
+      },
+      {
+        "t": "2026-10-24T12:46:47Z",
+        "equity": 987.9195,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -11.08301695212973
+      },
+      {
+        "t": "2026-10-24T13:02:02Z",
+        "equity": 988.0146,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -10.987877880924188
+      },
+      {
+        "t": "2026-10-24T13:15:47Z",
+        "equity": 986.1646,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -12.837864528419527
+      },
+      {
+        "t": "2026-10-24T13:38:46Z",
+        "equity": 984.4857,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -14.516830002420038
+      },
+      {
+        "t": "2026-10-24T13:54:34Z",
+        "equity": 985.8272,
+        "cash": 1.498751872191832,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -13.175311506453456
+      }
+    ],
+    "hybrid": [
+      {
+        "t": "2026-10-24T06:46:54Z",
+        "equity": 998.6502,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -0.4497751124437398
+      },
+      {
+        "t": "2026-10-24T06:47:10Z",
+        "equity": 998.6906,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -0.40937179751309327
+      },
+      {
+        "t": "2026-10-24T06:47:18Z",
+        "equity": 998.6877,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -0.4123093404682896
+      },
+      {
+        "t": "2026-10-24T07:04:19Z",
+        "equity": 1000.7302,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": 1.630227905456065
+      },
+      {
+        "t": "2026-10-24T07:24:59Z",
+        "equity": 996.762,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -2.3379685443922833
+      },
+      {
+        "t": "2026-10-24T07:36:40Z",
+        "equity": 997.0368,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -2.063210350054537
+      },
+      {
+        "t": "2026-10-24T07:51:46Z",
+        "equity": 994.631,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -4.468968298449996
+      },
+      {
+        "t": "2026-10-24T08:05:39Z",
+        "equity": 992.3876,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -6.7124495881906805
+      },
+      {
+        "t": "2026-10-24T08:22:00Z",
+        "equity": 992.0935,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -7.006533752652857
+      },
+      {
+        "t": "2026-10-24T08:30:31Z",
+        "equity": 992.4042,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -6.695843937980061
+      },
+      {
+        "t": "2026-10-24T08:55:03Z",
+        "equity": 989.7255,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.37445151014468
+      },
+      {
+        "t": "2026-10-24T09:04:38Z",
+        "equity": 987.4763,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -11.623659467032809
+      },
+      {
+        "t": "2026-10-24T09:23:31Z",
+        "equity": 985.8738,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -13.226204808725534
+      },
+      {
+        "t": "2026-10-24T09:36:05Z",
+        "equity": 983.884,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -15.215957455173587
+      },
+      {
+        "t": "2026-10-24T09:52:39Z",
+        "equity": 984.5465,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -14.55345167031573
+      },
+      {
+        "t": "2026-10-24T10:07:16Z",
+        "equity": 985.0962,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -14.003785379625322
+      },
+      {
+        "t": "2026-10-24T10:15:12Z",
+        "equity": 985.9358,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -13.164177175284209
+      },
+      {
+        "t": "2026-10-24T10:37:21Z",
+        "equity": 989.7603,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.339666126780733
+      },
+      {
+        "t": "2026-10-24T10:48:11Z",
+        "equity": 989.2479,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.852094154946588
+      },
+      {
+        "t": "2026-10-24T11:06:44Z",
+        "equity": 989.9609,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.1391409831962
+      },
+      {
+        "t": "2026-10-24T11:20:55Z",
+        "equity": 989.2689,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.83109839857237
+      },
+      {
+        "t": "2026-10-24T11:39:47Z",
+        "equity": 987.9438,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -11.156160925018382
+      },
+      {
+        "t": "2026-10-24T11:48:26Z",
+        "equity": 987.6999,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -11.400125477273335
+      },
+      {
+        "t": "2026-10-24T12:05:04Z",
+        "equity": 987.7376,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -11.36239298057194
+      },
+      {
+        "t": "2026-10-24T12:19:58Z",
+        "equity": 989.2751,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.824943852391165
+      },
+      {
+        "t": "2026-10-24T12:35:37Z",
+        "equity": 990.0902,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.009818208193712
+      },
+      {
+        "t": "2026-10-24T12:46:47Z",
+        "equity": 989.1003,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.999677006808941
+      },
+      {
+        "t": "2026-10-24T13:02:02Z",
+        "equity": 989.1862,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -9.913837565536554
+      },
+      {
+        "t": "2026-10-24T13:15:47Z",
+        "equity": 987.517,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -11.582992184875815
+      },
+      {
+        "t": "2026-10-24T13:38:46Z",
+        "equity": 986.0022,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -13.097842565246548
+      },
+      {
+        "t": "2026-10-24T13:54:34Z",
+        "equity": 987.2125,
+        "cash": 99.10000000000015,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -11.887454480822644
+      }
+    ],
+    "accel": [
+      {
+        "t": "2026-10-24T09:27:30Z",
+        "equity": 100.0,
+        "cash": 100.0,
+        "realized_pnl": null,
+        "unrealized_pnl": null
+      },
+      {
+        "t": "2026-10-24T09:28:10Z",
+        "equity": 100.0,
+        "cash": 100.0,
+        "realized_pnl": null,
+        "unrealized_pnl": null
+      },
+      {
+        "t": "2026-10-24T10:11:56Z",
+        "equity": 99.925,
+        "cash": 49.95,
+        "realized_pnl": null,
+        "unrealized_pnl": null
+      },
+      {
+        "t": "2026-10-24T11:09:29Z",
+        "equity": 98.4834,
+        "cash": 49.95,
+        "realized_pnl": null,
+        "unrealized_pnl": null
+      },
+      {
+        "t": "2026-10-24T12:08:02Z",
+        "equity": 97.5224,
+        "cash": 49.95,
+        "realized_pnl": null,
+        "unrealized_pnl": null
+      },
+      {
+        "t": "2026-10-24T13:03:44Z",
+        "equity": 97.2821,
+        "cash": 49.95,
+        "realized_pnl": null,
+        "unrealized_pnl": null
+      }
+    ]
+  },
+  "positions": {
+    "equal": [
+      {
+        "symbol": "AVAXUSDT",
+        "qty": 13.786023807557298,
+        "avg_cost": 9.044519999999999,
+        "cost_notional": 124.688,
+        "weight_pct_cost": 12.65,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "BNBUSDT",
+        "qty": 0.16890378155494742,
+        "avg_cost": 738.218925,
+        "cost_notional": 124.688,
+        "weight_pct_cost": 12.65,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "BTCUSDT",
+        "qty": 0.0015428597719032995,
+        "avg_cost": 80816.137875,
+        "cost_notional": 124.688,
+        "weight_pct_cost": 12.65,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "DOTUSDT",
+        "qty": 115.71555730763042,
+        "avg_cost": 1.0775385,
+        "cost_notional": 124.688,
+        "weight_pct_cost": 12.65,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "ETHUSDT",
+        "qty": 0.05240467559534677,
+        "avg_cost": 2379.32907,
+        "cost_notional": 124.688,
+        "weight_pct_cost": 12.65,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "LINKUSDT",
+        "qty": 10.561496205111691,
+        "avg_cost": 11.8059,
+        "cost_notional": 124.688,
+        "weight_pct_cost": 12.65,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "NEARUSDT",
+        "qty": 26.882151686867548,
+        "avg_cost": 4.638318,
+        "cost_notional": 124.688,
+        "weight_pct_cost": 12.65,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "SOLUSDT",
+        "qty": 1.2203844028624946,
+        "avg_cost": 102.17106,
+        "cost_notional": 124.688,
+        "weight_pct_cost": 12.65,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "CASH",
+        "qty": 1.498751872191832,
+        "avg_cost": 1.0,
+        "cost_notional": 1.4988,
+        "weight_pct_cost": 0.15,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      }
+    ],
+    "hybrid": [
+      {
+        "symbol": "AVAXUSDT",
+        "qty": 12.438471029971742,
+        "avg_cost": 9.044519999999999,
+        "cost_notional": 112.5,
+        "weight_pct_cost": 11.4,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "BNBUSDT",
+        "qty": 0.1523938173218737,
+        "avg_cost": 738.218925,
+        "cost_notional": 112.5,
+        "weight_pct_cost": 11.4,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "BTCUSDT",
+        "qty": 0.0013920487041091483,
+        "avg_cost": 80816.137875,
+        "cost_notional": 112.5,
+        "weight_pct_cost": 11.4,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "DOTUSDT",
+        "qty": 104.40462220143411,
+        "avg_cost": 1.0775385,
+        "cost_notional": 112.5,
+        "weight_pct_cost": 11.4,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "ETHUSDT",
+        "qty": 0.04728223658445026,
+        "avg_cost": 2379.32907,
+        "cost_notional": 112.5,
+        "weight_pct_cost": 11.4,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "LINKUSDT",
+        "qty": 9.529133738215638,
+        "avg_cost": 11.8059,
+        "cost_notional": 112.5,
+        "weight_pct_cost": 11.4,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "NEARUSDT",
+        "qty": 24.254481904862928,
+        "avg_cost": 4.638318,
+        "cost_notional": 112.5,
+        "weight_pct_cost": 11.4,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "SOLUSDT",
+        "qty": 1.1010945760962056,
+        "avg_cost": 102.17106,
+        "cost_notional": 112.5,
+        "weight_pct_cost": 11.4,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      },
+      {
+        "symbol": "CASH",
+        "qty": 99.10000000000015,
+        "avg_cost": 1.0,
+        "cost_notional": 99.1,
+        "weight_pct_cost": 10.04,
+        "entry_px": null,
+        "hold_until_utc": null,
+        "stop_pct": null,
+        "pnl_pct": null
+      }
+    ],
+    "accel": [
+      {
+        "symbol": "AIUSDT",
+        "qty": 2402.644831430439,
+        "avg_cost": 0.020810399999999996,
+        "entry_px": 0.020810399999999996,
+        "cost_notional": 50.0,
+        "mark_px": 0.0197,
+        "mark_notional": 47.3321,
+        "weight_pct_cost": 48.65,
+        "hold_until_utc": "2026-10-25T10:11:56Z",
+        "entry_utc": "2026-10-24T10:11:56Z",
+        "stop_pct": 0.06,
+        "score": 0.015254609306409067,
+        "pnl_pct": -5.34
+      },
+      {
+        "symbol": "CASH",
+        "qty": 49.95,
+        "avg_cost": 1.0,
+        "entry_px": 1.0,
+        "cost_notional": 49.95,
+        "mark_px": 1.0,
+        "mark_notional": 49.95,
+        "weight_pct_cost": 51.35,
+        "hold_until_utc": null,
+        "entry_utc": null,
+        "stop_pct": null,
+        "score": null,
+        "pnl_pct": null
+      }
+    ]
+  },
+  "events": [
+    {
+      "t": "2026-10-24T10:11:56Z",
+      "source": "accel",
+      "track": "accel",
+      "symbol": "AIUSDT",
+      "side": "buy",
+      "qty": 2402.644831430439,
+      "price": 0.020810399999999996,
+      "notional": 50.0,
+      "fee": null,
+      "reason": "accel_entry",
+      "realized_pnl": null,
+      "score": 0.015254609306409067,
+      "equity_after": 99.92501249375313,
+      "mode": "signal_only"
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "equal",
+      "symbol": "BTCUSDT",
+      "side": "buy",
+      "qty": 0.0015428597719032995,
+      "price": 80816.137875,
+      "notional": 124.6879680479281,
+      "fee": 0.1246879680479281,
+      "reason": "init_equal",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "equal",
+      "symbol": "ETHUSDT",
+      "side": "buy",
+      "qty": 0.05240467559534677,
+      "price": 2379.32907,
+      "notional": 124.68796804792811,
+      "fee": 0.12468796804792812,
+      "reason": "init_equal",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "equal",
+      "symbol": "SOLUSDT",
+      "side": "buy",
+      "qty": 1.2203844028624946,
+      "price": 102.17106,
+      "notional": 124.68796804792811,
+      "fee": 0.12468796804792812,
+      "reason": "init_equal",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "equal",
+      "symbol": "BNBUSDT",
+      "side": "buy",
+      "qty": 0.16890378155494742,
+      "price": 738.218925,
+      "notional": 124.68796804792812,
+      "fee": 0.12468796804792813,
+      "reason": "init_equal",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "equal",
+      "symbol": "AVAXUSDT",
+      "side": "buy",
+      "qty": 13.786023807557298,
+      "price": 9.044519999999999,
+      "notional": 124.68796804792811,
+      "fee": 0.12468796804792812,
+      "reason": "init_equal",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "equal",
+      "symbol": "LINKUSDT",
+      "side": "buy",
+      "qty": 10.561496205111691,
+      "price": 11.8059,
+      "notional": 124.68796804792811,
+      "fee": 0.12468796804792812,
+      "reason": "init_equal",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "equal",
+      "symbol": "DOTUSDT",
+      "side": "buy",
+      "qty": 115.71555730763042,
+      "price": 1.0775385,
+      "notional": 124.68796804792811,
+      "fee": 0.12468796804792812,
+      "reason": "init_equal",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "equal",
+      "symbol": "NEARUSDT",
+      "side": "buy",
+      "qty": 26.882151686867548,
+      "price": 4.638318,
+      "notional": 124.68796804792811,
+      "fee": 0.12468796804792812,
+      "reason": "init_equal",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "hybrid",
+      "symbol": "BTCUSDT",
+      "side": "buy",
+      "qty": 0.0013920487041091483,
+      "price": 80816.137875,
+      "notional": 112.5,
+      "fee": 0.1125,
+      "reason": "init_hybrid",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "hybrid",
+      "symbol": "ETHUSDT",
+      "side": "buy",
+      "qty": 0.04728223658445026,
+      "price": 2379.32907,
+      "notional": 112.5,
+      "fee": 0.1125,
+      "reason": "init_hybrid",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "hybrid",
+      "symbol": "SOLUSDT",
+      "side": "buy",
+      "qty": 1.1010945760962056,
+      "price": 102.17106,
+      "notional": 112.49999999999999,
+      "fee": 0.11249999999999999,
+      "reason": "init_hybrid",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "hybrid",
+      "symbol": "BNBUSDT",
+      "side": "buy",
+      "qty": 0.1523938173218737,
+      "price": 738.218925,
+      "notional": 112.49999999999999,
+      "fee": 0.11249999999999999,
+      "reason": "init_hybrid",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "hybrid",
+      "symbol": "AVAXUSDT",
+      "side": "buy",
+      "qty": 12.438471029971742,
+      "price": 9.044519999999999,
+      "notional": 112.5,
+      "fee": 0.1125,
+      "reason": "init_hybrid",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "hybrid",
+      "symbol": "LINKUSDT",
+      "side": "buy",
+      "qty": 9.529133738215638,
+      "price": 11.8059,
+      "notional": 112.49999999999999,
+      "fee": 0.11249999999999999,
+      "reason": "init_hybrid",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "hybrid",
+      "symbol": "DOTUSDT",
+      "side": "buy",
+      "qty": 104.40462220143411,
+      "price": 1.0775385,
+      "notional": 112.5,
+      "fee": 0.1125,
+      "reason": "init_hybrid",
+      "realized_pnl": 0.0,
+      "score": null
+    },
+    {
+      "t": "2026-10-24T06:46:54Z",
+      "source": "paper",
+      "track": "hybrid",
+      "symbol": "NEARUSDT",
+      "side": "buy",
+      "qty": 24.254481904862928,
+      "price": 4.638318,
+      "notional": 112.5,
+      "fee": 0.1125,
+      "reason": "init_hybrid",
+      "realized_pnl": 0.0,
+      "score": null
+    }
+  ],
+  "reports": {
+    "paper": "status: quiet\n# Paper 双轨快报（记账时区 UTC）\n\n- 时间（UTC）：**2026-10-24T13:54:34Z**\n- 池：strong8 = BTC, ETH, SOL, BNB, AVAX, LINK, DOT, NEAR\n- 费用：taker 0.10% + 滑点 0.050%\n\n## 净值对比\n\n| 轨道 | 净值(U) | 今日收益 | 累计收益 | 已实现 | 未实现 | 风控 |\n|------|---------|----------|----------|--------|--------|------|\n| EqualReb_4h | 985.83 | -1.42% | -1.42% | 0.00 | -13.18 | 正常 |\n| Hybrid_90/10 | 987.21 | -1.28% | -1.28% | 0.00 | -11.89 | 正常 |\n\n## Equal 仓位\n- AVAX: qty=13.786024 @cost=9.04452 val=122.76U (12.5%)\n- BNB: qty=0.16890378 @cost=738.219 val=123.56U (12.5%)\n- BTC: qty=0.0015428598 @cost=80816.1 val=124.55U (12.6%)\n- DOT: qty=115.71556 @cost=1.07754 val=123.58U (12.5%)\n- ETH: qty=0.052404676 @cost=2379.33 val=124.16U (12.6%)\n- LINK: qty=10.561496 @cost=11.8059 val=122.34U (12.4%)\n- NEAR: qty=26.882152 @cost=4.63832 val=119.52U (12.1%)\n- SOL: qty=1.2203844 @cost=102.171 val=123.84U (12.6%)\n- 现金: 1.50U\n\n## Hybrid 仓位\n- AVAX: qty=12.438471 @cost=9.04452 val=110.76U (11.2%)\n- BNB: qty=0.15239382 @cost=738.219 val=111.48U (11.3%)\n- BTC: qty=0.0013920487 @cost=80816.1 val=112.38U (11.4%)\n- DOT: qty=104.40462 @cost=1.07754 val=111.50U (11.3%)\n- ETH: qty=0.047282237 @cost=2379.33 val=112.03U (11.3%)\n- LINK: qty=9.529133…",
+    "accel": "status: quiet\n# Rocket Accel 影子快报（与 paper 隔离）\n\n- 时间（UTC）：**2026-10-24T13:03:44Z**\n- 模式：`signal_only`｜策略：`AC_s2.0_l16.0_h24.0_v1.5_s0.06_K2`｜周期：1h\n- 宇宙：40 币｜K=2｜止损 6%｜持有≤24.0h\n- 费用假设：taker 0.10% + 滑点 0.050%\n\n## 理论/虚拟净值\n\n| 项目 | 值 |\n|---|---|\n| 净值(U) | 97.28 |\n| 今日 | -2.72% |\n| 累计 | -2.72% |\n| 已实现 | 0.00 |\n| 风控 | 正常 |\n| 现金 | 49.95U |\n\n## 持仓\n\n- AI: qty=2402.64 @ 0.0208104 → 0.0197 val=47.33U (-5.34%) 到期UTC=2026-10-25T10:11:56Z\n\n## 本 tick 扫描 Top 候选\n\n- 无 Accel 候选\n\n## 事件\n\n- 无开平仓事件\n\n---\n\n_status=quiet_｜目录 `rocket/shadow/`｜**未触碰 paper/**"
+  }
+}
